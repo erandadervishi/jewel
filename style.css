@@ -281,6 +281,10 @@ a .client_arrow {
     color: #4d1f08;
 }
 
+.mobile_only {
+    display: none;
+}
+
 .stars {
     justify-content: center;
     margin: 2rem 0;
@@ -601,9 +605,17 @@ footer p {
         padding: 0;
     }
 
+    .client_arrow.web_only {
+        display: none;
+    }
+
+    .mobile_only {
+        display: flex;
+    }
+
     .our {
         font-size: 2.3rem;
-        margin-bottom: 3rem;
+        margin-bottom: 0;
     }
 
     .client_1.flex {
@@ -675,7 +687,7 @@ footer p {
         text-align: center;
     }
 
-    .center {
+    .center1 {
         justify-content: center;
     }
 
