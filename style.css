@@ -476,6 +476,7 @@ footer p {
 
 
 
+
 @media screen and (max-width: 700px) {
 
     img {
@@ -519,12 +520,25 @@ footer p {
         display: inline-block;
     }
 
+    .section1 {
+        padding: 2.5rem 0;
+    }
+
     .section1 .container h1 {
         font-size: 3rem;
     }
 
+    .hero {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
     .right {
         padding-top: 5rem;
+    }
+
+    .section2 {
+        padding: 2.5rem 0;
     }
 
     .section2 .container {
@@ -535,8 +549,8 @@ footer p {
         width: 100%;
     }
 
-    .wrapper {
-        display: none;
+    .wrapper img {
+        width: 50%;
     }
 
     .right h2 {
@@ -550,6 +564,10 @@ footer p {
         justify-content: flex-start;
     }
 
+    .section3 {
+        padding: 2.5rem 0;
+    }
+
     .arrivals {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -561,13 +579,8 @@ footer p {
         font-size: 2.3rem;
     }
 
-    .our {
-        font-size: 2.3rem;
-        margin-bottom: 3rem;
-    }
-
-    .client_1.flex {
-        flex-direction: column;
+    .section4 {
+        padding: 2.5rem 0;
     }
 
     .section4 .flex {
@@ -580,13 +593,34 @@ footer p {
         margin-bottom: 2rem;
     }
 
+    .section5 {
+        padding: 2.5rem 0;
+    }
+
     a .client_arrow {
         padding: 0;
+    }
+
+    .our {
+        font-size: 2.3rem;
+        margin-bottom: 3rem;
+    }
+
+    .client_1.flex {
+        flex-direction: column;
     }
 
     .quote p {
         position: relative;
         margin-top: 2rem;
+    }
+
+    .quote {
+        padding-bottom: 0;
+    }
+
+    .section6 {
+        padding: 2.5rem 0;
     }
 
     .section6 .container .flex {
@@ -615,12 +649,40 @@ footer p {
         gap: 1rem;
     }
 
+    .first {
+        text-align: center;
+        padding-bottom: 1.5rem;
+    }
+
     .first .icons {
         flex-direction: row;
+        justify-content: center;
+    }
+
+    .icons {
+        width: auto;
+    }
+
+    .second {
+        display: none;
     }
 
     .third .flex {
         flex-direction: row;
     }
 
+    .third {
+        text-align: center;
+    }
+
+    .center {
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .wrapper {
+        display: none;
+    }
 }
