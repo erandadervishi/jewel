@@ -19,14 +19,17 @@
 <body>
     <header>
         <div class="container">
-            <nav class="flex between center">
+            <nav class="flex between center top_nav">
                 <h3>Serenity</h3>
-                <ul class="flex between gap2 nav_li">
+                <ul id="topNav" class="flex between gap2 nav_li">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About Us</a></li>
                     <li><a href="#">Pages</a></li>
                     <li><a href="#">Catalog</a></li>
                 </ul>
+                <div class="flex gap-1 align-center">
+                    <button href="#" class="icon_nav" onclick="hamburgerMenuToggle()"><i class="fa fa-bars"></i></button>
+                </div>
             </nav>
         </div>
     </header>
@@ -237,6 +240,7 @@
             </div>
         </div>
     </footer>
+    <script src="./script.js"></script>
 </body>
 
 </html>
